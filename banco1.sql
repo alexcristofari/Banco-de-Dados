@@ -1,6 +1,3 @@
--- =================================================================
--- BIBLIOTECA - ATIVIDADES 4 A 10 (APENAS O QUE FALTA)
--- =================================================================
 
 -- ATIVIDADE 4: Criar o comando SQL para a criação do banco de dados BIBLIOTECA
 CREATE DATABASE IF NOT EXISTS BIBLIOTECA;
@@ -155,7 +152,3 @@ JOIN editora e ON l.id_editora = e.id_editora
 WHERE (c.descricao = 'Romance' OR c.descricao = 'Ficção Científica')
 AND l.ano_publicacao BETWEEN 2000 AND 2010
 ORDER BY l.ano_publicacao;
-
--- =================================================================
--- FIM DAS ATIVIDADES
--- =================================================================
